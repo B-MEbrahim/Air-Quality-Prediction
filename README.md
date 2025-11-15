@@ -210,6 +210,13 @@ curl -X POST "http://127.0.0.1:8000/predict" \
 
 ---
 
+## Streamlit Web App
+
+To make the Air Quality Prediction model accessible and easy to use, an interactive Streamlit web application was built.
+This app allows users to input environmental conditions and sensor readings, sends the data to the deployed FastAPI backend (hosted on Render), and displays the predicted Benzene concentration (C6H6) along with an easy-to-understand air quality assessment.
+
+- Try it out : https://air-quality-prediction01.streamlit.app/
+
 ## Future Work
 
 - Integrate real-time data ingestion from IoT sensors
