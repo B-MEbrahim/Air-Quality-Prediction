@@ -1,0 +1,12 @@
+scikit-learn==1.7.1
+pandas==2.3.2
+numpy==2.3.1
+joblib==1.5.1
+fastapi==0.116.1
+pydantic==2.11.7
+matplotlib==3.10.5
+seaborn==0.13.2
+uvicorn==0.24.0
+python-multipart==0.0.9
+gunicorn==23.0.0
+uvicorn[standard]==0.24.0
