@@ -14,7 +14,6 @@ st.title("Air Quality Predictor (Benzene C6H6)")
 
 st.write("""
 Enter the environmental sensor data and choose date/time.  
-All time-based features (sin/cos cycles) are automatically calculated.
 """)
 
 st.subheader("Sensor Readings")
@@ -123,3 +122,4 @@ if st.button("🔍 Predict Air Quality"):
         st.error("Air Quality: **HAZARDOUS** — avoid outdoor activity!")
 
     st.write(f"**Predicted C6H6(GT): {prediction:.2f} µg/m³**")
+
